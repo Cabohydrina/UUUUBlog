@@ -6,7 +6,8 @@ from django.contrib.auth.models import User
 class Article(models.Model):
     channel1_id=models.IntegerField(default=0)
     channel2_id=models.IntegerField(default=0)
-    #category=models.ForeignKey(Category)
+    #category=models.ForeignKey("Category")
+    category_id =models.IntegerField(default=0)
     title=models.CharField(max_length=200)
     pic=models.CharField(max_length=80)
     tags=models.CharField(max_length=120)
@@ -31,10 +32,8 @@ class Category(models.Model):
     name=models.CharField(max_length=80)
     sortnum=models.IntegerField(default=10)
     #articles=models.IntegerField(default=0)
-    articles = models.ForeignKey(Article)
+    articles= models.ForeignKey(Article,db_column="articles")
     user_id=models.IntegerField(default=0)
-
-
 
 class Comment(models.Model):
     article=models.ForeignKey(Article)

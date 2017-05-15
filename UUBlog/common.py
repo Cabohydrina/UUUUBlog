@@ -24,7 +24,6 @@ def categoryList(uid=-1):
         categoryList=Category.objects.order_by("-sortnum").filter(user_id=uid)
     else:
         categoryList=Category.objects.order_by("-sortnum").all()
-
     return categoryList
 
 def createUserProfile(user):
@@ -34,7 +33,6 @@ def createUserProfile(user):
     profile.save()
 
 def createBlog(user):
-  
     blog=Blog()
     blog.user_id=user.id
     blog.title=user.username+"的博客".decode("utf-8")
@@ -50,10 +48,10 @@ def Users(request,uid):
     currentUser=request.user
     if  currentUser.id :
         try:
-            currentUserProfile=currentUser.get_profile()
+            currentUserProfile=UserProfile.objects.get(user_id=currentUser.id)
         except:
             createUserProfile(currentUser)
-            currentUserProfile=currentUser.get_profile()
+            currentUserProfile=UserProfile.objects.get(user_id=currentUser.id)
 
         try:
             currentBlog=Blog.objects.get(user_id=currentUser.id)
@@ -80,6 +78,8 @@ def Users(request,uid):
         try:
             isGuest=True
             guestUser=User.objects.get(id=uid)
+            guestUserProfile = None
+            guestBlog = None
         except:
             isGuest=False
             guestUser=None
@@ -89,13 +89,15 @@ def Users(request,uid):
         if isGuest:
             try:
                 try:
-                    guestUserProfile=guestUser.get_profile()
+                    guestUserProfile=UserProfile.objects.get(user_id=guestUser.id)
+                    print guestUserProfile
+                    print 111
                 except:
                     createUserProfile(guestUser)
-                    guestUserProfile=guestUser.get_profile()
-
+                    guestUserProfile=UserProfile.objects.get(user_id=guestUser.id)
                 try:
-                    guestBlog=Blog.objects.get(user_id=guestUser.id)
+                    guestBlog = Blog.objects.get(user_id=guestUser.id)
+                    print 11111
                 except:
                     createBlog(guestUser)
                     guestBlog=Blog.objects.get(user_id=guestUser.id)

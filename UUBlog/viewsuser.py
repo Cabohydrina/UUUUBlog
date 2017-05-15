@@ -50,7 +50,7 @@ def login(request):
         user=auth.authenticate(username=username,password=password)
         if user is not None:
             try:
-                userProfile=user.get_profile()
+                userProfile=UserProfile.objects.get(user_id=user.id)
             except:
                 common.createUserProfile(user)
             try:

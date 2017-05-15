@@ -28,7 +28,9 @@ import utility
 #博客首页
 def home(request,uid):
     uid=int(uid)
+    print uid
     userInfos=common.Users(request,uid)
+    print userInfos
     
     guestBlog=userInfos["guestblog"]
 
@@ -45,6 +47,7 @@ def home(request,uid):
     guestBlog.save()
 
     articleList=Article.objects.order_by("-createtime").filter(user_id=uid).filter(status=1)
+    print articleList
     
     return utility.my_render_to_response(request,"Skins/"+guestBlog.template+"/home.html",locals())
 
@@ -105,7 +108,6 @@ def category(request,uid,cid):
     moduleParams={}
     for myModule in myModules:
         moduleParams.setdefault(myModule,{"uid":uid})
-
     moduleList=modules.GetModuleList(moduleParams)
 
     currentCategory=Category.objects.get(id=cid)
