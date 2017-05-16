@@ -3,6 +3,9 @@ import datetime
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
+#zhou
+from django.forms import ModelForm
+#zhou
 class Article(models.Model):
     channel1_id=models.IntegerField(default=0)
     channel2_id=models.IntegerField(default=0)
@@ -108,6 +111,10 @@ class Channel(models.Model):
     username=models.CharField(max_length=80)
     isenable=models.IntegerField(default=1)
 
-
+#表单??
+class ContactForm(ModelForm):
+  class Meta:
+    model = Article
+    fields = ('content', 'title')
 
  

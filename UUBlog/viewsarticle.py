@@ -19,6 +19,11 @@ from django.views.generic.base import TemplateView
 from django.contrib.auth.decorators import login_required
 
 from UUBlog.models import Category, Article,Comment,Channel
+#zhou
+from django import forms
+from django.forms import ModelForm
+from UUBlog.models import ContactForm
+#zhou
 import common
 import modules
 import utility
@@ -181,6 +186,10 @@ def add(request,*arg,**kwarg):
     categoryList=common.categoryList(currentUser.id)
     channelList=Channel.objects.all()
 
+    #zhou
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+    #zhou
     if request.POST.has_key('ok'):
         channel1Id=int(utility.GetPostData(request,'channel1',0))
         channel2Id=int(utility.GetPostData(request,'channel1',0))
@@ -207,7 +216,7 @@ def add(request,*arg,**kwarg):
         else:
             summary=utility.RemoveTags(summary)
 
-        articleInfo=Article(category=category)
+        articleInfo=Article(category_id=category.id)
 
         articleInfo.channel1_id=channel1Id
         articleInfo.channel2_id=channel2Id
@@ -254,9 +263,13 @@ def add(request,*arg,**kwarg):
             channel2.articles+=1
             channel2.save()
 
+        print len(content)
+        if len(content)>280:
+            return render(request, 'message.html', locals())
+
+
         return HttpResponseRedirect('/%d/' %request.user.id)
     else:
-        
         articleInfo=Article()
 
         return utility.my_render_to_response(request,"pub/articleedit.html",locals())

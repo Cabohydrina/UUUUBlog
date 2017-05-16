@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="cache-control" content="no-cache">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>错误页面</title>
+<!-- <link href="css/not_find.css" rel="stylesheet" type="text/css" media="all"/> -->
+<style type="text/css">
+	body, div, p, ul, ol, li, textarea, form, input, h1, h2, h3, h4, h5, h6, dl, dt, dd, img, section, article, aside, header, footer, nav, figure, hgroup {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+a:link, a:visited {
+    text-decoration: none
+}
+body {
+    font-size: 14px;
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "\5FAE\8F6F\96C5\9ED1", Helvetica, serif;
+}
+html {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.home_body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+.wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    width: 300px;
+    height: 300px;
+}
+.not_find {
+    width: 235px;
+    height: 85px;
+    margin: 0 auto;
+    background-image: url(../../../../static/images/404.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-animation: rotate 2s ease-in infinite;
+    -webkit-transform-origin: 0 0;
+    background-size: cover;
+}
+.light {
+    width: 30px;
+    height: 33px;
+    margin: 5px auto 0;
+    background-image: url(../../../../static/images/six.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-animation: rotate360 2s linear infinite;
+    -webkit-transform-origin: center;
+    background-size: cover;
+}
+.fish {
+    width: 55px;
+    height: 52px;
+    margin: 0 0 0 53%;
+    background-image: url(../../../../static/images/fish.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    -webkit-animation: fishTranslate .8s linear infinite alternate;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+.tips {
+    width: 100%;
+    height: auto;
+    margin-top: 8%;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+.inner_wave {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 115px;
+    background: url(../../../../static/images/wave.png) 0px -58px no-repeat;
+    -webkit-animation: wave 4s linear infinite;
+    background-repeat: repeat-x;
+}
+@-webkit-keyframes rotate360 {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(.8) rotate(8deg);
+    }
+    50% {
+        -webkit-transform: scale(.8) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(1.2) rotate(8deg);
+    }
+}
+@-webkit-keyframes wave {
+    0% {
+        background-position: 0 -58px;
+    }
+    100% {
+        background-position: -640px -58px;
+    }
+}
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    50% {
+        -webkit-transform: rotate(10deg) skewX(10deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg)
+    }
+}
+@-webkit-keyframes fishTranslate {
+    0% {
+        -webkit-transform: translate(-5px -5px);
+    }
+    50% {
+        -webkit-transform: translate(0 0);
+    }
+    100% {
+        -webkit-transform: translate(5px, 5px);
+    }
+
+}
+@-webkit-keyframes prop-800 {
+    0% {
+        -webkit-transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(-170%);
+    }
+}
+
+</style>
+</head>
+<body class="home_body">
+
+<div class="wrap">
+    <!-- <div class="not_find"></div> -->
+    <div class="light"></div>
+    <div class="fish"></div>
+    <div class="tips">字数超过限制</div>
+</div>
+<div class="inner_wave"></div>
+
+</body>
+</html>
+
