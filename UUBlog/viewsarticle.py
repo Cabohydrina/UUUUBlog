@@ -18,7 +18,7 @@ from django.contrib.auth.models import User
 from django.views.generic.base import TemplateView
 from django.contrib.auth.decorators import login_required
 
-from UUBlog.models import Category, Article,Comment,Channel
+from UUBlog.models import Category, Article,Comment,Channel,Great,Relation
 import common
 import modules
 import utility
@@ -56,6 +56,7 @@ def home(request,uid):
 def show(request,uid=-1,aid=-1,*arg,**kwarg):
     uid=int(uid)
     userInfos=common.Users(request,uid)
+    print userInfos
     guestBlog=userInfos["guestblog"]
 
     myModules=guestBlog.modules.split(",")
@@ -65,6 +66,7 @@ def show(request,uid=-1,aid=-1,*arg,**kwarg):
     moduleList=modules.GetModuleList(moduleParams)
     
     articleInfo=Article.objects.get(id=aid)
+
 
     if request.POST.has_key('ok'):
         username = utility.GetPostData(request,'username')
@@ -84,6 +86,22 @@ def show(request,uid=-1,aid=-1,*arg,**kwarg):
         guestBlog.comments+=1
         guestBlog.save()
 
+    if userInfos["currentuser"]:
+        try:
+            greatInfo = Great.objects.get(article_id=aid, user_id=userInfos["currentuser"].id)
+        except:
+            greatInfo=None
+        #点赞功能
+        if request.POST.has_key('support'):
+            greatInf=Great()
+            greatInf.great=1
+            greatInf.user_id = userInfos["currentuser"].id
+            greatInf.article_id=aid
+            greatInf.save()
+
+            articleInfo.goods += 1
+
+    #获取评论列表
     commentList=Comment.objects.filter(article_id=aid)
 
     #更新文章浏览量

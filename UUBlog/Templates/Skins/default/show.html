@@ -13,9 +13,16 @@
 
     <div class="artTitle"><h1>{{articleInfo.title}}</h1></div>
 
+    <form name="form2" method="POST" action="" >
+     {% csrf_token %}
     <div class="artCon">{{articleInfo.content|safe}}
-        <div>支持({{articleInfo.goods}})&nbsp;&nbsp;┆&nbsp;&nbsp;反对({{articleInfo.bads}})</div>
+        {% if not greatInfo%}
+        <div><input type="submit" name="support" value="赞"/>({{articleInfo.goods}})</div>
+        {% else %}
+         <div>赞({{articleInfo.goods}})</div>
+        {% endif %}
     </div>
+    </form>
 
     <div class="artMeta">
         <span><a href="{% url 'userhome' uid=articleInfo.user_id%}">{{articleInfo.username}}</a>&nbsp;&nbsp;┆&nbsp;&nbsp;{{articleInfo.createtime}}&nbsp;&nbsp;┆&nbsp;&nbsp;阅读({{articleInfo.views}})&nbsp;&nbsp;┆&nbsp;&nbsp;评论({{articleInfo.comments}})
@@ -40,7 +47,6 @@
             <span>反对</span>
             <span>支持</span>
             <span>回复</span>
-
         </div>
         
     </div>
@@ -65,7 +71,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="submit" name="ok" value="--修改--"/></td>
+                    <td><input type="submit" name="ok" value="--提交--"/></td>
                 </tr>
 
             </table>

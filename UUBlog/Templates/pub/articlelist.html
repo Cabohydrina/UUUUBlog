@@ -11,8 +11,7 @@
                     <td>标题</td>
                     <td width="60">状态</td>
                     <td width="60">评论</td>
-                    <td width="60">支持</td>
-                    <td width="60">反对</td>
+                    <td width="60">点赞数</td>
                     <td width="60">浏览</td>
                     <td width="120">操作</td>
                 </tr>
@@ -33,7 +32,6 @@
                     </td>   
                     <td>{{articleInfo.comments}}</td>
                     <td>{{articleInfo.goods}}</td>
-                    <td>{{articleInfo.bads}}</td>
                     <td>{{articleInfo.views}}</td>                  
                     <td><a href="{% url 'articleedit' uid=articleInfo.user_id aid=articleInfo.id%}">编辑</a>&nbsp&nbsp|&nbsp&nbsp<a href="{% url 'articledelete' uid=articleInfo.user_id aid=articleInfo.id%}">删除</a></td>
                 </tr>
