@@ -207,7 +207,7 @@ def add(request,*arg,**kwarg):
         else:
             summary=utility.RemoveTags(summary)
 
-        articleInfo=Article(category=category)
+        articleInfo=Article(category_id=category.id)
 
         articleInfo.channel1_id=channel1Id
         articleInfo.channel2_id=channel2Id
