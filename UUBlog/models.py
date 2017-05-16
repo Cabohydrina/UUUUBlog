@@ -111,10 +111,21 @@ class Channel(models.Model):
     username=models.CharField(max_length=80)
     isenable=models.IntegerField(default=1)
 
+
 #表单??
 class ContactForm(ModelForm):
   class Meta:
     model = Article
     fields = ('content', 'title')
+#zhou
+class Great(models.Model):
+    article_id=models.IntegerField(default=0)
+    user_id = models.IntegerField(default=0)
+    great=models.IntegerField(default=0)#0表示未点赞
+
+class  Relation(models.Model):
+    star_id=models.IntegerField(default=0)
+    fans_id=models.IntegerField(default=0)
+
 
  

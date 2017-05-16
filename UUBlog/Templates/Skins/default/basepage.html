@@ -147,17 +147,20 @@ word-break: break-all;line-height: 24px;}
                 </div>
                 <div class="centerinfo">
                     <ul>
-                        <li class="selected"><a href="/">主页</a></li>
-                        <li><a href="/">主页</a></li>
-                        <li><a href="/">主页</a></li>
-                        <li><a href="/">主页</a></li>
+                        <li class="selected"><a href="/">首页</a></li>
+                        {% if userInfos.currentuser %}
+                        <li><a href="{% url 'userhome' uid=userInfos.currentuser.id%}">我的主页</a></li>
+                        {% endif %}
+                        <li><a href="/">空间</a></li>
+                        <li><a href="{% url 'channel'%}">频道</a></li>
+                        <li><a href="/">随便看看</a></li>
                     </ul>
                 </div>
                 <div class="rightinfo">
                     <ul>
                         {% if userInfos.currentuser %}
-                    <li><a href="{% url 'userhome' uid=userInfos.currentuser.id%}">我的博客</a></li>
-                    <li><a href="{% url 'articleadd' uid=userInfos.currentuser.id %}">发布文章</a></li>
+                    <li><a href="{% url 'userhome' uid=userInfos.currentuser.id%}">我的微博</a></li>
+                    <li><a href="{% url 'articleadd' uid=userInfos.currentuser.id %}">发布微博</a></li>
                     <li><a href="{% url 'profilebase' uid=userInfos.currentuser.id%}">设置</a></li>
                     <li><a href="{% url 'logout'%}">退出</a></li>
                     {% else %}

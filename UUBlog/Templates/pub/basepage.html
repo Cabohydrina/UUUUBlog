@@ -128,8 +128,8 @@
             {% if userInfos.currentuser %}
 
             <div style="float: right; clear: both;">
-                <a href="{% url 'userhome' uid=userInfos.currentuser.id%}">我的博客</a>
-                <a href="{% url 'articleadd' uid=userInfos.currentuser.id %}">发布文章</a>
+                <a href="{% url 'userhome' uid=userInfos.currentuser.id%}">我的微博</a>
+                <a href="{% url 'articleadd' uid=userInfos.currentuser.id %}">发布微博</a>
 <a href="{% url 'profilebase' uid=userInfos.currentuser.id%}">设置</a>
                 <a href="{% url 'logout'%}">退出</a>
             </div>
@@ -162,9 +162,9 @@
             <div class="wrap_content">
                 <div class="managernavigate">
                     <ul>
-                        <li><a href="{% url 'articlelist' uid=userInfos.currentuser.id %}">文章管理</a></li>
+                        <li><a href="{% url 'articlelist' uid=userInfos.currentuser.id %}">微博管理</a></li>
                         <li><a href="{% url 'category' uid=userInfos.currentuser.id%}">分类管理</a></li>
-                        <li><a href="{% url 'configblog' uid=userInfos.currentuser.id%}">博客设置</a></li>
+                        <li><a href="{% url 'configblog' uid=userInfos.currentuser.id%}">微博设置</a></li>
                         <li><a href="{% url 'profilebase' uid=userInfos.currentuser.id%}">个人资料</a></li>
                         <li>asfd</li>
                         <li>asfd</li>
