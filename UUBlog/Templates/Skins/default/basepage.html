@@ -140,7 +140,7 @@ word-break: break-all;line-height: 24px;}
                 <div class="leftinfo">
                     <ul>
                         <li><a href="/">
-                        <h1>UUWeiBo</h1>
+                        <h1>UUBlog</h1>
                     </a></li>
                     </ul>
                     
@@ -160,7 +160,7 @@ word-break: break-all;line-height: 24px;}
                     <ul>
                         {% if userInfos.currentuser %}
                     <li><a href="{% url 'userhome' uid=userInfos.currentuser.id%}">我的微博</a></li>
-                    <li><a href="{% url 'articleadd' uid=userInfos.currentuser.id %}">发布文章</a></li>
+                    <li><a href="{% url 'articleadd' uid=userInfos.currentuser.id %}">发布微博</a></li>
                     <li><a href="{% url 'profilebase' uid=userInfos.currentuser.id%}">设置</a></li>
                     <li><a href="{% url 'logout'%}">退出</a></li>
                     {% else %}

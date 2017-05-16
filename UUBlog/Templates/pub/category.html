@@ -51,9 +51,9 @@
 
 {% block sidebar%}
 <div class="tbox">
-    <div class="hd">文章管理</div>
+    <div class="hd">微博管理</div>
     <ul class="bd">
-        <li><a href="{% url 'articleadd' uid=userInfos.currentuser.id%}">添加新文章</a></li>
+        <li><a href="{% url 'articleadd' uid=userInfos.currentuser.id%}">添加新微博</a></li>
         <li><a href="{% url 'articlelistdraft' uid=userInfos.currentuser.id%}">草稿箱</a></li>
     </ul>
 </div>
@@ -61,7 +61,7 @@
     <div class="hd">分类管理</div>
     <ul class="bd">
         <li><a href="{% url 'category' uid=userInfos.currentuser.id%}">编辑分类</a></li>
-        <li><a href="{% url 'articlelist' uid=userInfos.currentuser.id %}">所有文章</a></li>
+        <li><a href="{% url 'articlelist' uid=userInfos.currentuser.id %}">所有微博</a></li>
         <li><a href="{% url 'articlelistcategory' uid=userInfos.currentuser.id cid=1%}">未分类</a></li>
         {% if categoryList %}
         {% for categoryInfo in categoryList %}

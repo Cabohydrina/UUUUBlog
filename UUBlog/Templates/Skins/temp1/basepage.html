@@ -87,8 +87,8 @@
             </div>
             <div class="rightinfo">
                 {% if userInfos.currentuser %}
-                <a href="{% url 'userhome' uid=userInfos.currentuser.id%}">我的博客</a>
-                <a href="{% url 'articleadd' uid=userInfos.currentuser.id %}">发布文章</a>
+                <a href="{% url 'userhome' uid=userInfos.currentuser.id%}">我的微博</a>
+                <a href="{% url 'articleadd' uid=userInfos.currentuser.id %}">发布微博</a>
                 <a href="{% url 'profilebase' uid=userInfos.currentuser.id%}">设置</a>
                 <a href="{% url 'logout'%}">退出</a>
                 {% else %}

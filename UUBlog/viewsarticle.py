@@ -56,20 +56,15 @@ def home(request,uid):
 def show(request,uid=-1,aid=-1,*arg,**kwarg):
     uid=int(uid)
     userInfos=common.Users(request,uid)
-
     guestBlog=userInfos["guestblog"]
 
     myModules=guestBlog.modules.split(",")
     moduleParams={}
     for myModule in myModules:
         moduleParams.setdefault(myModule,{"uid":uid})
-
     moduleList=modules.GetModuleList(moduleParams)
     
-
     articleInfo=Article.objects.get(id=aid)
-
-    
 
     if request.POST.has_key('ok'):
         username = utility.GetPostData(request,'username')
@@ -271,7 +266,7 @@ def edit(request,uid,aid):
     channelList=Channel.objects.all()
 
     articleInfo=Article.objects.get(id=aid)
-    oldCategory=articleInfo.category
+    oldCategory=articleInfo.category_id
     oldStatus=articleInfo.status
 
     if request.POST.has_key('ok'):
@@ -302,7 +297,7 @@ def edit(request,uid,aid):
 
         articleInfo.channel1_id=channel1Id
         articleInfo.channel2_id=channel2Id
-        articleInfo.category=category
+        articleInfo.category_id=cateId
         articleInfo.title = title
         articleInfo.pic=pic
         articleInfo.tags=tags

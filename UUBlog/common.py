@@ -35,7 +35,7 @@ def createUserProfile(user):
 def createBlog(user):
     blog=Blog()
     blog.user_id=user.id
-    blog.title=user.username+"的博客".decode("utf-8")
+    blog.title=user.username+"的微博".decode("utf-8")
     blog.modules="profile,hotarticlelist,hotcommentlist"
     blog.template="default"
     blog.createtime=datetime.datetime.now()
@@ -91,13 +91,11 @@ def Users(request,uid):
                 try:
                     guestUserProfile=UserProfile.objects.get(user_id=guestUser.id)
                     print guestUserProfile
-                    print 111
                 except:
                     createUserProfile(guestUser)
                     guestUserProfile=UserProfile.objects.get(user_id=guestUser.id)
                 try:
                     guestBlog = Blog.objects.get(user_id=guestUser.id)
-                    print 11111
                 except:
                     createBlog(guestUser)
                     guestBlog=Blog.objects.get(user_id=guestUser.id)
