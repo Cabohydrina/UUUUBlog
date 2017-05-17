@@ -11,7 +11,8 @@ from django.core.paginator import Paginator,InvalidPage,EmptyPage,PageNotAnInteg
 import time,datetime
 from django.db.models import Q
 from django.db import connection
-from django.template import RequestContext 
+from django.template import RequestContext
+
 
 
 from django.contrib.auth.models import User
@@ -85,10 +86,16 @@ def show(request,uid=-1,aid=-1,*arg,**kwarg):
         guestBlog=userInfos["guestblog"]
         guestBlog.comments+=1
         guestBlog.save()
+    # 获取评论列表
+    commentList = Comment.objects.filter(article_id=aid)
+
+    # 更新文章浏览量
+    articleInfo.views += 1
+    articleInfo.save()
 
     if userInfos["currentuser"]:
         try:
-            greatInfo = Great.objects.get(article_id=aid, user_id=userInfos["currentuser"].id)
+            greatInfo = Great.objects.filter(article_id=aid, user_id=userInfos["currentuser"].id)
         except:
             greatInfo=None
         #点赞功能
@@ -98,17 +105,18 @@ def show(request,uid=-1,aid=-1,*arg,**kwarg):
             greatInf.user_id = userInfos["currentuser"].id
             greatInf.article_id=aid
             greatInf.save()
-
             articleInfo.goods += 1
+            articleInfo.save()
 
-    #获取评论列表
-    commentList=Comment.objects.filter(article_id=aid)
+#            print '/%d/show/%d' % (request.user.id,aid)
+            text='/%d/show/%d' % (request.user.id,int(aid))
+            return HttpResponseRedirect(text)
 
-    #更新文章浏览量
-    articleInfo.views+=1
-    articleInfo.save()
+
 
     return utility.my_render_to_response(request,"Skins/"+guestBlog.template+"/show.html",locals())
+    #return HttpResponseRedirect(request, "Skins/" + guestBlog.template + "/show.html", locals())
+
 
 #分类浏览
 def category(request,uid,cid):
@@ -266,6 +274,9 @@ def add(request,*arg,**kwarg):
             channel2=Channel.objects.get(id=channel2Id)
             channel2.articles+=1
             channel2.save()
+
+        if len(content) > 280:
+            return render(request, 'message.html', locals())
 
         return HttpResponseRedirect('/%d/' %request.user.id)
     else:

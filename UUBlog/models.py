@@ -3,6 +3,9 @@ import datetime
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
+#zhou
+from django.forms import ModelForm
+#zhou
 class Article(models.Model):
     channel1_id=models.IntegerField(default=0)
     channel2_id=models.IntegerField(default=0)
@@ -27,6 +30,13 @@ class Article(models.Model):
     isoriginal=models.IntegerField(default=1)       #1发布；0草稿
     cancomment=models.IntegerField(default=1)       #1发布；0草稿
     password=models.CharField(max_length=80)       #1发布；0草稿
+
+#表单??
+class ContactForm(ModelForm):
+  class Meta:
+    model = Article
+    fields = ('content', 'title')
+#zhou
 
 class Category(models.Model):
     name=models.CharField(max_length=80)
@@ -113,7 +123,7 @@ class Great(models.Model):
     user_id = models.IntegerField(default=0)
     great=models.IntegerField(default=0)#0表示未点赞
 
-class  Relation(models.Model):
+class Relation(models.Model):
     star_id=models.IntegerField(default=0)
     fans_id=models.IntegerField(default=0)
 

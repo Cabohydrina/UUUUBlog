@@ -17,7 +17,7 @@
             {{articleInfo.summary|striptags}}       
         </div>
         <div class="artMeta">
-            <span><a href="{% url 'userhome' uid=articleInfo.user_id%}">{{articleInfo.username}}</a>&nbsp;&nbsp;┆&nbsp;&nbsp;{{articleInfo.createtime|date:"Y-m-d H:i:s"}}&nbsp;&nbsp;┆&nbsp;&nbsp;阅读({{articleInfo.views}})&nbsp;&nbsp;┆&nbsp;&nbsp;评论({{articleInfo.comments}})&nbsp;&nbsp;┆&nbsp;&nbsp;支持({{articleInfo.goods}})&nbsp;&nbsp;┆&nbsp;&nbsp;反对({{articleInfo.bads}})
+            <span><a href="{% url 'userhome' uid=articleInfo.user_id%}">{{articleInfo.username}}</a>&nbsp;&nbsp;┆&nbsp;&nbsp;{{articleInfo.createtime|date:"Y-m-d H:i:s"}}&nbsp;&nbsp;┆&nbsp;&nbsp;阅读({{articleInfo.views}})&nbsp;&nbsp;┆&nbsp;&nbsp;评论({{articleInfo.comments}})&nbsp;&nbsp;┆&nbsp;&nbsp;赞({{articleInfo.goods}})
                 {% if userInfos.isme%}
                 &nbsp;&nbsp;┆&nbsp;&nbsp;<a href="{% url 'articleedit' uid=articleInfo.user_id aid=articleInfo.id%}">编辑</a>
                 {% endif %}
