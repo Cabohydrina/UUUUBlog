@@ -285,6 +285,7 @@ def add(request,*arg,**kwarg):
 
         return utility.my_render_to_response(request,"pub/articleedit.html",locals())
 
+
 @login_required()
 def edit(request,uid,aid):
     uid=int(uid)

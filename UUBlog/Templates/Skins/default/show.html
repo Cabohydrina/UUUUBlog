@@ -25,7 +25,7 @@
     </form>
 
     <div class="artMeta">
-        <span><a href="{% url 'userhome' uid=articleInfo.user_id%}">{{articleInfo.username}}</a>&nbsp;&nbsp;┆&nbsp;&nbsp;{{articleInfo.createtime}}&nbsp;&nbsp;┆&nbsp;&nbsp;阅读({{articleInfo.views}})&nbsp;&nbsp;┆&nbsp;&nbsp;评论({{articleInfo.comments}})
+        <span><a href="{% url 'userhome' uid=articleInfo.user_id%}">{{articleInfo.username}}</a>&nbsp;&nbsp;┆&nbsp;&nbsp;{{articleInfo.createtime}}&nbsp;&nbsp;┆&nbsp;&nbsp;<a href="{% url 'articleedit' uid=articleInfo.user_id aid=articleInfo.id%}">转发</a>&nbsp;&nbsp;┆&nbsp;&nbsp;阅读({{articleInfo.views}})&nbsp;&nbsp;┆&nbsp;&nbsp;评论({{articleInfo.comments}})
             {% if userInfos.isme%}
             &nbsp;&nbsp;┆&nbsp;&nbsp;<a href="{% url 'articleedit' uid=articleInfo.user_id aid=articleInfo.id%}">编辑</a>
             {% endif %}
@@ -66,7 +66,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="submit" name="ok" value="--提交--"/></td>
+                    <td><input type="submit" name="ok" value="  提交  "/></td>
                 </tr>
 
             </table>
