@@ -14,7 +14,7 @@
                 {{articleInfo.content}}       
             </div>
             <div class="artMeta">
-                <span><a href="{% url 'userhome' uid=articleInfo.user_id%}">{{articleInfo.username}}</a>&nbsp;&nbsp;┆&nbsp;&nbsp;{{articleInfo.createtime}}&nbsp;&nbsp;┆&nbsp;&nbsp;阅读({{articleInfo.views}})&nbsp;&nbsp;┆&nbsp;&nbsp;评论({{articleInfo.comments}})&nbsp;&nbsp;┆&nbsp;&nbsp;支持({{articleInfo.goods}})&nbsp;&nbsp;┆&nbsp;&nbsp;反对({{articleInfo.bads}})
+                <span><a href="{% url 'userhome' uid=articleInfo.user_id%}">{{articleInfo.username}}</a>&nbsp;&nbsp;┆&nbsp;&nbsp;{{articleInfo.createtime}}&nbsp;&nbsp;┆&nbsp;&nbsp;阅读({{articleInfo.views}})&nbsp;&nbsp;┆&nbsp;&nbsp;评论({{articleInfo.comments}})&nbsp;&nbsp;┆&nbsp;&nbsp;赞({{articleInfo.goods}})
                     {% if isMe%}
 
 &nbsp;&nbsp;┆&nbsp;&nbsp;<a href="{% url 'articleedit' uid=articleInfo.user_id aid=articleInfo.id%}">编辑</a>

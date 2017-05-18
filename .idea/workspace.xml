@@ -33,6 +33,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
+      <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+<<<<<<< HEAD
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,6 +54,7 @@
                 <element signature="e#23#74#0" expanded="true" />
               </folding>
 =======
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
       <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/category.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,6 +66,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="basepage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UUBlog/Templates/basepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="Articleedit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/Templates/pub/Articleedit.html">
@@ -66,11 +86,19 @@
             <state relative-caret-position="120">
               <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="Articleedit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UUBlog/Templates/pub/Articleedit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="99" column="66" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="66" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="message.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/Templates/message.html">
@@ -84,11 +112,19 @@
             <state relative-caret-position="360">
               <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="19" column="322" selection-start-line="19" selection-start-column="322" selection-end-line="19" selection-end-column="322" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="basepage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UUBlog/Templates/basepage.html">
@@ -102,11 +138,20 @@
             <state relative-caret-position="165">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="other.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/other.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="16" column="284" selection-start-line="16" selection-start-column="284" selection-end-line="16" selection-end-column="284" />
+              <folding />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="viewsarticle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/viewsarticle.py">
@@ -125,10 +170,15 @@
                 <element signature="e#23#74#0" expanded="true" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
               </folding>
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UUBlog/urls.py">
+=======
 <<<<<<< HEAD
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/views.py">
@@ -139,11 +189,12 @@
 =======
       <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/common.py">
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="491">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
-                <element signature="e#23#77#0" expanded="true" />
+                <element signature="e#23#74#0" expanded="true" />
               </folding>
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
             </state>
@@ -160,9 +211,14 @@
       <file leaf-file-name="viewsarticle.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UUBlog/viewsarticle.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="2880">
+              <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
+=======
             <state relative-caret-position="218">
               <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
               <folding>
                 <element signature="e#23#77#0" expanded="true" />
               </folding>
@@ -170,6 +226,14 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="basepage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/basepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="162" column="90" selection-start-line="162" selection-start-column="90" selection-end-line="162" selection-end-column="90" />
+              <folding />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="utility.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/utility.py">
@@ -188,6 +252,7 @@
                 <element signature="e#23#43#0" expanded="true" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
               </folding>
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
             </state>
           </provider>
         </entry>
@@ -202,14 +267,21 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
         <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="429">
+              <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+=======
             <state relative-caret-position="113">
               <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UUBlog/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -227,6 +299,7 @@
           </provider>
         </entry>
       </file>
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -236,6 +309,8 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+=======
   <component name="FindInProjectRecents">
     <findStrings>
       <find>viewsarticle</find>
@@ -276,6 +351,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -283,7 +359,6 @@
         <option value="$PROJECT_DIR$/UUBlog/admin.py" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/index.html" />
         <option value="$PROJECT_DIR$/UUBlog/views.py" />
-        <option value="$PROJECT_DIR$/UUBlog/Templates/Skins/default/home.html" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/modules/category.html" />
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/UUBlog/common.py" />
@@ -306,7 +381,6 @@
         <option value="$PROJECT_DIR$/UUBlog/Templates/modules/hotarticlelist.html" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/modules/profile.html" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/modules/search.html" />
-        <option value="$PROJECT_DIR$/UUBlog/Templates/pub/Articleedit.html" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/Skins/default/basepage.html" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/pub/basepage.html" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/pub/config/blog.html" />
@@ -321,10 +395,18 @@
         <option value="$PROJECT_DIR$/UUBlog/common.py" />
         <option value="$PROJECT_DIR$/UUBlog/static/ueditor/lang/zh-cn/zh-cn.js" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/pub/articlelist.html" />
+        <option value="$PROJECT_DIR$/UUBlog/Templates/message.html" />
         <option value="$PROJECT_DIR$/UUBlog/models.py" />
-        <option value="$PROJECT_DIR$/UUBlog/viewsarticle.py" />
+        <option value="$PROJECT_DIR$/说明/uublog.sql" />
+        <option value="$PROJECT_DIR$/UUBlog/Templates/Skins/default/home.html" />
+        <option value="$PROJECT_DIR$/UUBlog/Templates/Skins/default/other.html" />
         <option value="$PROJECT_DIR$/UUBlog/Templates/Skins/default/show.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/UUBlog/Templates/pub/Articleedit.html" />
+        <option value="$PROJECT_DIR$/UUBlog/viewsarticle.py" />
+=======
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
       </list>
     </option>
   </component>
@@ -336,12 +418,17 @@
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+    <option name="x" value="-5" />
+    <option name="y" value="23" />
+=======
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="width" value="1932" />
     <option name="height" value="1038" />
 =======
     <option name="x" value="-4" />
     <option name="y" value="27" />
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
     <option name="width" value="1280" />
     <option name="height" value="735" />
   </component>
@@ -536,6 +623,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
+<<<<<<< HEAD
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UUBlog/static/images" />
+    </key>
+=======
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -547,6 +640,7 @@
         </RuleState>
       </list>
     </option>
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
   </component>
   <component name="RunManager" selected="Django server.用Python和Django实现多用户博客系统——UUBlog">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -820,6 +914,10 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+    <frame x="-5" y="23" width="1280" height="735" extended-state="0" />
+    <editor active="true" />
+=======
+<<<<<<< HEAD
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -835,24 +933,33 @@
 =======
     <frame x="-4" y="27" width="1280" height="735" extended-state="6" />
     <editor active="false" />
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42612752" sideWeight="0.43537965" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3437014" sideWeight="0.47819063" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.49353796" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.48707592" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3437014" sideWeight="0.5218094" order="2" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3437014" sideWeight="0.54119545" order="2" side_tool="false" content_ui="tabs" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4230171" sideWeight="0.54523426" order="3" side_tool="false" content_ui="tabs" />
+=======
 <<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40206185" sideWeight="0.4838536" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 =======
       <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42612752" sideWeight="0.5646204" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -898,33 +1005,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>34</line>
+          <line>35</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="23" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>39</line>
+          <line>40</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
@@ -939,12 +1046,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>189</line>
+          <line>197</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>196</line>
+          <line>204</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
@@ -959,67 +1066,67 @@
           <option name="timeStamp" value="36" />
 =======
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>216</line>
+          <line>224</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>202</line>
+          <line>210</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>94</line>
+          <line>101</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>56</line>
+          <line>57</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>57</line>
+          <line>58</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>59</line>
+          <line>60</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>219</line>
+          <line>227</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>90</line>
+          <line>97</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>95</line>
+          <line>102</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>96</line>
+          <line>103</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>98</line>
+          <line>105</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>97</line>
+          <line>104</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
-          <line>99</line>
+          <line>106</line>
           <option name="timeStamp" value="60" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
         </line-breakpoint>
@@ -1028,16 +1135,32 @@
           <line>218</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/UUBlog/viewsarticle.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
       </breakpoints>
+<<<<<<< HEAD
+      <option name="time" value="63" />
+=======
 <<<<<<< HEAD
       <option name="time" value="42" />
 =======
       <option name="time" value="61" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     <entry file="file:///Library/Python/2.7/site-packages/django/contrib/staticfiles/handlers.py" />
     <entry file="file:///usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/wsgiref/handlers.py" />
@@ -1079,6 +1202,7 @@
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/home.html">
 =======
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/pub/profile/avatar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1158,14 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/other.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1256,14 +1372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/channel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/goodarticlelist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1310,14 +1418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/basepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/hotarticlelist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1326,6 +1426,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1341,6 +1443,7 @@
         <state relative-caret-position="166">
           <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
 =======
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1350,6 +1453,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     <entry file="file://C:/Python27/Lib/site-packages/Django-1.9.13-py2.7.egg/django/shortcuts.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1382,6 +1487,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/pub/basepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1565,31 +1671,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/category.html">
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/newarticlelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/pub/articlelist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="143" selection-start-line="8" selection-start-column="143" selection-end-line="8" selection-end-column="143" />
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="229">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+=======
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+>>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/UUBlog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/说明/uublog.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/newarticlelist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
->>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
-          <folding />
-        </state>
-      </provider>
-    </entry>
+        <state relative-caret-position="11338">
+          <caret line="585" column="0" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/pub/basepage.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1616,10 +1743,17 @@
         <state relative-caret-position="360">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/UUBlog/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+=======
     <entry file="file://$PROJECT_DIR$/UUBlog/viewsarticle.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1629,12 +1763,34 @@
         <state relative-caret-position="146">
           <caret line="112" column="44" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
           <folding>
             <element signature="e#23#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/channel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/viewsuser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+=======
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/pub/Articleedit.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1651,6 +1807,7 @@
           <folding />
 =======
         <state relative-caret-position="113">
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="e#23#43#0" expanded="true" />
@@ -1658,47 +1815,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UUBlog/urls.py">
+    <entry file="file://$PROJECT_DIR$/UUBlog/utility.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="133">
+          <caret line="19" column="322" selection-start-line="19" selection-start-column="322" selection-end-line="19" selection-end-column="322" />
+          <folding />
+=======
         <state relative-caret-position="-210">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#23#74#0" expanded="true" />
           </folding>
 >>>>>>> 558f47dff7852f10a46537abe8d71bfbc590754d
+>>>>>>> e500c3830af02c5f3b718821c509b6a1f03f9205
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UUBlog/common.py">
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/pub/Articleedit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#77#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="310">
+          <caret line="99" column="66" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/basepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="162" column="90" selection-start-line="162" selection-start-column="90" selection-end-line="162" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/other.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="16" column="284" selection-start-line="16" selection-start-column="284" selection-end-line="16" selection-end-column="284" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UUBlog/Templates/Skins/default/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="-170">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/basepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/Templates/modules/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="143" selection-start-line="8" selection-start-column="143" selection-end-line="8" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UUBlog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#23#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UUBlog/viewsarticle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state relative-caret-position="2880">
+          <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
           <folding>
             <element signature="e#23#77#0" expanded="true" />
           </folding>
