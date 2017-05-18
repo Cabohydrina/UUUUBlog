@@ -14,10 +14,10 @@ from django.db import connection
 from django.template import RequestContext 
 from django.contrib.auth.models import User
 
-from UUBlog.models import Category, Article,Blog,UserProfile
+from UUBlog.models import Category, Article,Blog,UserProfile,Relation
 
 from django.views.generic.base import TemplateView
-
+import utility
 
 def categoryList(uid=-1):
     if uid>0:
@@ -107,6 +107,16 @@ def Users(request,uid):
         guestUser=None
         guestUserProfile=None
         guestBlog=None
+
+    #关注功能
+
+    if request.POST.has_key('focus'):
+        relationInfo=Relation()
+        relationInfo.star_id=uid
+        relationInfo.fans_id=currentUser.id
+        relationInfo.save()
+        text = '%d' % (uid)
+        return HttpResponseRedirect(text)
 
     ret.setdefault("isguest",isGuest)
     ret.setdefault("guestuser",guestUser)

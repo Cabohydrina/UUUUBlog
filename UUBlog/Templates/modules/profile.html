@@ -8,7 +8,16 @@
             <img src="/media/{{userInfos.guestuserprofile.avatar}}" width="120px" height="120px"/><br/>
 {{userInfos.guestuserprofile.nickname}}
         </li>
-        
+        <form name="form2" method="POST" action="" >
+             {% csrf_token %}
+            <div class="artCon">{{articleInfo.content|safe}}
+                {% if not greatInfo%}
+                <div><input type="submit" name="focus" value="关注"/>({{articleInfo.goods}})</div>
+                {% else %}
+                 <div>关注</div>
+                {% endif %}
+            </div>
+        </form>
         <li>今日访问：{{userInfos.guestblog.todayviews}}</li>
         <li>总访问量：{{userInfos.guestblog.totalviews}}</li>
         <li>微博：{{userInfos.guestblog.articles}}</li>
@@ -19,5 +28,7 @@
 
             </ul>
     </div>
+
+
     <div class="ft"></div>
 </div>
