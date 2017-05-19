@@ -38,8 +38,12 @@ def home(request,uid):
     print uid
     userInfos=common.Users(request,uid)
     print userInfos
-    
+    print uid
+    print userInfos["currentuser"].id
     guestBlog=userInfos["guestblog"]
+    focusnum=Relation.objects.filter(fans_id=uid).count()
+    fansnum=Relation.objects.filter(star_id=uid).count()
+
 
     myModules=guestBlog.modules.split(",")
     moduleParams={}
@@ -47,7 +51,29 @@ def home(request,uid):
         moduleParams.setdefault(myModule,{"uid":uid})
 
     moduleList=modules.GetModuleList(moduleParams)
+    # 关注功能
+    if userInfos["currentuser"]:
+        print userInfos["currentuser"].id
+        print uid
+        try:
+            focusInfo = Relation.objects.filter(star_id=uid, fans_id=userInfos["currentuser"].id)
+        except:
+            focusInfo = None
 
+
+    if request.POST.has_key('focus'):
+        relationInfo = Relation()
+        relationInfo.star_id = uid
+        relationInfo.fans_id = userInfos["currentuser"].id
+        relationInfo.save()
+        text = '/%d' % (uid)
+        return HttpResponseRedirect(text)
+
+    #取消关注
+    if request.POST.has_key('nofocus'):
+        Relation.objects.filter(star_id=uid, fans_id=userInfos["currentuser"].id).delete()
+        text = '/%d' % (uid)
+        return HttpResponseRedirect(text)
     #更新用户文章总数
     guestBlog.todayviews+=1
     guestBlog.totalviews+=1
@@ -55,6 +81,8 @@ def home(request,uid):
 
     articleList=Article.objects.order_by("-createtime").filter(user_id=uid).filter(status=1)
     print articleList
+
+
     
     return utility.my_render_to_response(request,"Skins/"+guestBlog.template+"/home.html",locals())
 

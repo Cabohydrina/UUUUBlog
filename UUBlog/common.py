@@ -14,10 +14,10 @@ from django.db import connection
 from django.template import RequestContext 
 from django.contrib.auth.models import User
 
-from UUBlog.models import Category, Article,Blog,UserProfile
+from UUBlog.models import Category, Article,Blog,UserProfile,Relation
 
 from django.views.generic.base import TemplateView
-
+import utility
 
 def categoryList(uid=-1):
     if uid>0:

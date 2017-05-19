@@ -128,6 +128,17 @@ def security(request,uid=-1):
     else:
         return utility.my_render_to_response(request,"pub/profile/security.html",locals())
 
+#关注 by zhou
+@login_required()
+def fork(request,uid=-1):
+
+    if utility.HasPostData(request, "ok"):
+        print 123456789
+
+        return HttpResponseRedirect('/')
+    else:
+        return utility.my_render_to_response(request, "modules/profile.html", locals())
+
 
 
 

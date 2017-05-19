@@ -107,7 +107,8 @@ class Blog(models.Model):
     articles=models.IntegerField(default=0)
     comments=models.IntegerField(default=0)
     createtime=models.DateTimeField(default=datetime.datetime.now())
-
+    #focusnum=models.IntegerField(default=0)
+    #fansnum=models.IntegerField(default=0)
 class Channel(models.Model):
     parent_id=models.IntegerField(default=0)
     name=models.CharField(max_length=80)
