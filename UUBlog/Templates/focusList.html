@@ -1,0 +1,42 @@
+{% extends 'basepage.html'%}
+
+{% block container %}
+<div id="wrap_content">
+    <div class="relationList">
+
+        <div class="border tbox">
+
+            <div class="bd">
+                {% if starProfile %}
+                    {% for starInfo in starProfile%}
+
+                        <div class="artTitle"><h2><a href="{% url 'userhome' uid=starInfo.user_id%}">{{starInfo.nickname}}</a></h2></div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+</div>
+
+
+<div id="wrap_sidebar">
+    {% if myModules %}
+            {% for module in myModules %}
+                {% with "modules/"|add:module|add:".html" as template%}
+                {% include template %}
+                {% endwith %}
+
+            {% endfor %}
+
+        {% else %}
+    {% endif %}
+</div>
+
+
+{% endblock %}

@@ -107,6 +107,9 @@ def show(request,uid=-1,aid=-1,*arg,**kwarg):
         username = utility.GetPostData(request,'username')
         content = utility.GetPostData(request,'content')
 
+        if len(content)>200:
+            return render(request, 'message.html', locals())
+
         comment=Comment()
         comment.article=articleInfo
         comment.content=content

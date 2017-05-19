@@ -114,3 +114,22 @@ def Users(request,uid):
     ret.setdefault("guestblog",guestBlog)
 
     return ret
+
+def Relations(request,uid):
+    uid=int(uid)
+    ret={}
+    starList=Relation.objects.filter(fans_id=uid)
+    fansList=Relation.objects.filter(star_id=uid)
+    starNameList=[]
+    fansNameList=[]
+    for star in starList:
+        starInfo=UserProfile.objects.get(user_id=star.star_id)
+        starNameList.append(starInfo)
+    for fan in fansList:
+        fanInfo=UserProfile.objects.get(user_id=fan.fans_id)
+        print fanInfo
+        fansNameList.append(fanInfo)
+
+    ret.setdefault("starList",starNameList)
+    ret.setdefault("fansList",fansNameList)
+    return  ret

@@ -24,8 +24,8 @@
         <li>总访问量：{{userInfos.guestblog.totalviews}}</li>
         <li>微博：{{userInfos.guestblog.articles}}</li>
         <li>评论：{{userInfos.guestblog.comments}}</li>
-            <li>关注：{{focusnum}}</li>
-            <li>粉丝：{{fansnum}}</li>
+            <li><a href="{% url 'focushome' uid=uid%}">关注：{{focusnum}}</a></li>
+            <li><a href="{% url 'fanshome' uid=uid%}">粉丝：{{fansnum}}</a></li>
         <li>园龄：{{userInfos.guestuser.date_joined|date:"Y-m-d"}}</li>
 
             </ul>
