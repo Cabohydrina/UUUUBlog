@@ -8,22 +8,24 @@
             <img src="/media/{{userInfos.guestuserprofile.avatar}}" width="120px" height="120px"/><br/>
 {{userInfos.guestuserprofile.nickname}}
         </li>
+
         <form name="form2" method="POST" action="" >
              {% csrf_token %}
             <div class="artCon">{{articleInfo.content|safe}}
-                {% if not greatInfo%}
-                <div><input type="submit" name="focus" value="关注"/>({{articleInfo.goods}})</div>
+               {% if not focusInfo%}
+                <div><input type="submit" name="focus" value="关注"/></div>
                 {% else %}
-                 <div>关注</div>
+                 <div><input type="submit" name="nofocus" value="取消关注"/></div>
                 {% endif %}
             </div>
         </form>
+
         <li>今日访问：{{userInfos.guestblog.todayviews}}</li>
         <li>总访问量：{{userInfos.guestblog.totalviews}}</li>
         <li>微博：{{userInfos.guestblog.articles}}</li>
         <li>评论：{{userInfos.guestblog.comments}}</li>
-            <li>支持：{{userInfos.guestblog.goods}}</li>
-            <li>反对：{{userInfos.guestblog.bads}}</li>
+            <li>关注：{{focusnum}}</li>
+            <li>粉丝：{{fansnum}}</li>
         <li>园龄：{{userInfos.guestuser.date_joined|date:"Y-m-d"}}</li>
 
             </ul>

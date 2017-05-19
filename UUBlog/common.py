@@ -108,16 +108,6 @@ def Users(request,uid):
         guestUserProfile=None
         guestBlog=None
 
-    #关注功能
-
-    if request.POST.has_key('focus'):
-        relationInfo=Relation()
-        relationInfo.star_id=uid
-        relationInfo.fans_id=currentUser.id
-        relationInfo.save()
-        text = '%d' % (uid)
-        return HttpResponseRedirect(text)
-
     ret.setdefault("isguest",isGuest)
     ret.setdefault("guestuser",guestUser)
     ret.setdefault("guestuserprofile",guestUserProfile)
