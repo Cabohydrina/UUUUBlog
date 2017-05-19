@@ -30,7 +30,6 @@ urlpatterns += patterns('',
     # Examples:url(r'^$', 'index', name='index'),
      
      url(r'^channel/(?P<cid>\d+)$', 'UUBlog.viewsindex.channel', name='channel'),
-     
      url(r'^accounts/login/$', 'UUBlog.viewsuser.login', name='login'),
      url(r'^accounts/logout/$', 'UUBlog.viewsuser.logout', name='logout'),
      url(r'^accounts/register/$', 'UUBlog.viewsuser.register', name='register'),
