@@ -30,7 +30,7 @@ def avatar(request,uid=-1):
     userInfos=common.Users(request,-1)
     currentUserProfile=userInfos["currentuserprofile"]
     #000/00/01
-    if utility.HasPostData(request,"ok"):
+    if utility.HasPostData(request,"okkk"):
         avatarPath=("%d" %currentUserProfile.user_id).rjust(7,"0")
         dir1=avatarPath[0:3]
         dir2=avatarPath[3:5]

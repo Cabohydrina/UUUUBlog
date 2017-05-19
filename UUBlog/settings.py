@@ -14,7 +14,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'uublog',                      # Or path to database file if using sqlite3.
         'USER': 'root',                      # Not used with sqlite3.
-        'PASSWORD': 'fire_xhome',                  # Not used with sqlite3.
+        'PASSWORD': '961112',                  # Not used with sqlite3.
         'HOST': '127.0.0.1',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '3306',                      # Set to empty string for default. Not used with sqlite3.
     }
@@ -49,7 +49,7 @@ USE_TZ = True
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
 #MEDIA_ROOT = 'D:/mysite/UUBlog/UUBlog/media/'
-MEDIA_ROOT = '/Users/Catherine/Desktop/UUBlog/UUblog/media'
+MEDIA_ROOT = '/Users/Catherine/Desktop/UUBlog/UUblog/media/'
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"

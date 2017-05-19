@@ -30,7 +30,6 @@ urlpatterns += patterns('',
     # Examples:url(r'^$', 'index', name='index'),
      
      url(r'^channel/(?P<cid>\d+)$', 'UUBlog.viewsindex.channel', name='channel'),
-     
      url(r'^accounts/login/$', 'UUBlog.viewsuser.login', name='login'),
      url(r'^accounts/logout/$', 'UUBlog.viewsuser.logout', name='logout'),
      url(r'^accounts/register/$', 'UUBlog.viewsuser.register', name='register'),
@@ -60,6 +59,7 @@ urlpatterns += patterns('',
      url(r'^(?P<uid>\d+)/pub/article/list/category/(?P<cid>\d+)$', 'UUBlog.viewsarticle.listcategory',name='articlelistcategory'),
      url(r'^(?P<uid>\d+)/pub/article/add/$', 'UUBlog.viewsarticle.add',name='articleadd'),
      url(r'^(?P<uid>\d+)/pub/article/edit/(?P<aid>\d+)$', 'UUBlog.viewsarticle.edit', name='articleedit'),
+     url(r'^(?P<uid>\d+)/pub/article/transfer/(?P<aid>\d+)$', 'UUBlog.viewsarticle.transfer',name='articletransfer'),
      url(r'^(?P<uid>\d+)/pub/article/delete/(?P<aid>\d+)$', 'UUBlog.viewsarticle.delete', name='articledelete'),
 
      #分类管理部分

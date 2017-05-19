@@ -44,7 +44,7 @@ def SaveFile(file,path='',fileName=''):
     fileName=fileName+tempFileName[dot:]
 
     filePath='%s%s' %(settings.MEDIA_ROOT,path)
-    filePath=filePath.replace("/","\\")
+    #filePath=filePath.replace("/","\\")
     if not os.path.isdir(filePath):
         os.makedirs(filePath)
 
