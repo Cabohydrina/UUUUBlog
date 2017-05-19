@@ -49,6 +49,10 @@ urlpatterns += patterns('',
      url(r'^(?P<uid>\d+)/$', 'UUBlog.viewsarticle.home', name='userhome'),
      url(r'^(?P<uid>\d+)/category/(?P<cid>\d+)$', 'UUBlog.viewsarticle.category', name='articlecategory'),
      url(r'^(?P<uid>\d+)/show/(?P<aid>\d+)$', 'UUBlog.viewsarticle.show', name='articleshow'),
+     #关注页面
+
+     url(r'^focus/(?P<uid>\d+)$', 'UUBlog.viewsfocus.focus', name='focushome'),
+     url(r'^fans/(?P<uid>\d+)$', 'UUBlog.viewsfans.fans', name='fanshome'),
 
      #文章管理部分
      url(r'^(?P<uid>\d+)/pub/article/list/$', 'UUBlog.viewsarticle.list',name='articlelist'),
